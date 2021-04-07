@@ -5,3 +5,4 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/d70c940f9908ced7c721/maintainability)](https://codeclimate.com/github/fdsaer/frontend-project-lvl1/maintainability)
 ### Asciinemas:
 [![asciicast](https://asciinema.org/a/EkbIelT4ojdqZumnpbDjBARH4.svg)](https://asciinema.org/a/EkbIelT4ojdqZumnpbDjBARH4)
+[![asciicast](https://asciinema.org/a/405639.svg)](https://asciinema.org/a/405639)
