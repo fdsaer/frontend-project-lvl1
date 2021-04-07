@@ -2,11 +2,15 @@ import * as calcGame from './games/calc-game.js';
 import * as evenGame from './games/even-game.js';
 import * as gcdGame from './games/gcd-game.js';
 import * as progressionGame from './games/progression-game.js';
+import * as primeGame from './games/prime-game.js';
 import cli from './cli.js';
 
 const defineFunction = (name) => {
   let func;
   switch (name) {
+    case 'prime':
+      func = primeGame;
+      break;
     case 'progression':
       func = progressionGame;
       break;
