@@ -1,10 +1,14 @@
 import * as calcGame from './games/calc-game.js';
 import * as evenGame from './games/even-game.js';
+import * as gcdGame from './games/gcd-game.js';
 import cli from './cli.js';
 
 const defineFunction = (name) => {
   let func;
   switch (name) {
+    case 'gcd':
+      func = gcdGame;
+      break;
     case 'calc':
       func = calcGame;
       break;
