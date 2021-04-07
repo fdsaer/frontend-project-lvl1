@@ -9,7 +9,10 @@ const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) +
 
 const isEven = (number) => number % 2 === 0;
 
-const calcRightAnswer = (number) => isEven(number) ? 'yes' : 'no';
+const calcRightAnswer = (number) => {
+  const result = isEven(number) ? 'yes' : 'no';
+  return result;
+};
 
 let number = 0;
 
